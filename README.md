@@ -1,4 +1,12 @@
-# Git Shortcuts
+# Git Aliases
+
+### Changing default editor
+
+```bash
+git config --global core.editor code
+```
+Define VSCode as default editor.
+
 
 ## Editing Global Settings
 
@@ -20,10 +28,3 @@ git config --global --edit
 	cm = !git checkout master
 	cmain = !git checkout main
 ```
-
-### Changing default editor
-
-```bash
-git config --global core.editor code
-```
-Define VSCode as default editor.
