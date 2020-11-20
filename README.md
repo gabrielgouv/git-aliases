@@ -1,6 +1,6 @@
 # Git Aliases
 
-### Changing default editor
+## Changing default editor
 
 ```bash
 git config --global core.editor code
